@@ -230,5 +230,8 @@ padding: 0 16px ;
     font-size: 18px;
     gap: 16px;
    }
+   nav{
+    justify-content:center;
+   }
 
 }   
