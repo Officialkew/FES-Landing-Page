@@ -30,6 +30,7 @@
    <main>
       <section id="about">
          <h2>About Us</h2>
+         <div class="row">
          <div class="section__discription">
          <div class="section__discription--wrapper">
           <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, nobis maiores iure modi rerum velit nisi vel illum iste dignissimos natus fugit eum, voluptates reiciendis ullam quis quibusdam repellendus maxime!</p>
@@ -39,15 +40,19 @@
             <img src="./assets/about.jpg" alt="about us image">
          </figure>
          </div>
+         </div>
       </section>
       <section id="discord">
       <h2>Join our Discord</h2>
-      <figure>
+       <div class="row">
+      <div class="section__discription">  
+      <figure class="about__img--wrapper">
             <img src="./assets/discord.png" alt="discord image">
       </figure>
-         <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+         <div class="section__discription--wrapper">
+            <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil pariatur, omnis vero laboriosam inventore tempore alias facere, reprehenderit, fugit maxime voluptatem asperiores harum qui obcaecati minima commodi delectus distinctio ad!</p>
+            <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio velit nisi vel similique sunt. Incidunt animi, expedita neque asperiores rem, officiis placeat labore corporis amet commodi, voluptas nihil praesentium reiciendis.</p>
+         </div>
          </div>
       </section>
       <section id="contact">
@@ -59,17 +64,19 @@
             <input type="email" id="email" name="email" placeholder="jane@example.com">
             <label for="message">Message:</label>
             <textarea name="message" id="message" type="text" placeholder="Your message here..."></textarea>
-            <button type="submit">Submit</button>
+            <button type="submit">Contact Us</button>
          </form>  
+         </div>
       </section>
+      </main>
    </main>
    <footer>
-      <img src="./assets/FES.svg" alt="Footer Logo">
-      <div>
-         <a href="#about">About</a>
-         <a href="#discord">Discord</a>
-         <a href="#contact">Contact</a>   
-         <a href="#">Courses</a>   
+      <img class="footer__logo" src="./assets/FES.svg" alt="Footer Logo">
+      <div class="footer__links">
+         <a class="footer__link" href="#about">About</a>
+         <a class="footer__link" href="#discord">Discord</a>
+         <a class="footer__link" href="#contact">Contact</a>   
+         <a class="footer__link" href="#">Courses</a>   
       </div>
       <p>&copy; 2024 Frontend Simplified. All rights reserved.</p>
    </footer>
